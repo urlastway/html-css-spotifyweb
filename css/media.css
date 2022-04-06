@@ -18,6 +18,10 @@
     .nav__right{
         height: 56px;
     }
+
+    .logo_s{
+        display: none;
+    }
 }
 /*ML*/
 @media screen and (min-width: 878px) {
@@ -41,6 +45,9 @@
         height: 112px;
     }
     
+    .logo_s{
+        display: none;
+    }
 }
 /*S*/
 @media screen and (min-width: 639px) {
@@ -61,6 +68,10 @@
 
     .nav__right{
         height: 112px;
+    }
+    
+    .logo_s{
+        display: none;
     }
 }
 
@@ -84,5 +95,11 @@
 
     .nav__right{
         height: 112px;
+    }
+
+    .logo{ display: none;}
+
+    .hidden{
+        display: none;
     }
 }
