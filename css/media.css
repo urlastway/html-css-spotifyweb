@@ -1,0 +1,88 @@
+/*LG*/
+@media screen and (min-width: 1440px) {
+    * {
+      box-sizing: border-box;
+    }
+    .left__display{
+        width: 230px;
+    }
+
+    .right__display{
+        width: calc(100% - 230px);
+    }
+
+    .right__display, .left__display {
+        height: calc(100vh - 90px);
+    }
+
+    .nav__right{
+        height: 56px;
+    }
+}
+/*ML*/
+@media screen and (min-width: 878px) {
+    * {
+      box-sizing: border-box;
+    }
+
+    .left__display{
+        width: 230px;
+    }
+
+    .right__display{
+        width: calc(100% - 230px);
+    }
+    
+    .right__display, .left__display {
+        height: calc(100vh - 90px);
+    }
+
+    .nav__right{
+        height: 112px;
+    }
+    
+}
+/*S*/
+@media screen and (min-width: 639px) {
+    * {
+      box-sizing: border-box;
+    }
+    .left__display{
+        width: 230px;
+    }
+
+    .right__display{
+        width: calc(100% - 230px);
+    }
+
+    .right__display, .left__display {
+        height: calc(100vh - 90px);
+    }
+
+    .nav__right{
+        height: 112px;
+    }
+}
+
+/*XS*/
+@media screen and (max-width: 639px) {
+    * {
+      box-sizing: border-box;
+    }
+    .left__display{
+        width: 50px;
+    }
+
+    .right__display{
+        width: calc(100% - 50px);
+
+    }
+
+    .right__display, .left__display {
+        height: calc(100vh - 90px);
+    }
+
+    .nav__right{
+        height: 112px;
+    }
+}
