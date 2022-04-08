@@ -18,13 +18,54 @@
     .nav__right{
         height: 56px;
     }
-
+    .header__right{
+        width: calc(100% - 230px);
+    }
     .logo_s{
         display: none;
+    }
+    .main__right__menu{
+        max-height: calc(100vh - 90px - 56px - 90px);
+    }
+    .right__item {
+        width: calc(100% / 6 - 10px);
+    }
+}
+@media screen and (max-width: 1440px) {
+    * {
+      box-sizing: border-box;
+    }
+    .left__display{
+        width: 230px;
+    }
+
+    .right__display{
+        width: calc(100% - 230px);
+    }
+
+    .right__display, .left__display {
+        height: calc(100vh - 90px);
+    }
+
+    .nav__right{
+        height: 56px;
+    }
+    .header__right{
+        width: calc(100% - 230px);
+    }
+    .logo_s{
+        display: none;
+    }
+
+    .main__right__menu{
+        max-height: calc(100vh - 90px - 56px - 90px);
+    }
+    .right__item {
+        width: calc(100% / 4 - 10px);
     }
 }
 /*ML*/
-@media screen and (min-width: 878px) {
+@media screen and (max-width: 878px) {
     * {
       box-sizing: border-box;
     }
@@ -44,13 +85,21 @@
     .nav__right{
         height: 112px;
     }
-    
+    .header__right{
+        width: calc(100% - 230px);
+    }
     .logo_s{
         display: none;
+    }
+    .main__right__menu{
+        max-height: calc(100vh - 90px - 112px - 90px);
+    }
+    .right__item {
+        width: calc(100% / 2 - 10px);
     }
 }
 /*S*/
-@media screen and (min-width: 639px) {
+@media screen and (max-width: 639px) {
     * {
       box-sizing: border-box;
     }
@@ -69,9 +118,17 @@
     .nav__right{
         height: 112px;
     }
-    
+    .header__right{
+        width: calc(100% - 230px);
+    }
     .logo_s{
         display: none;
+    }
+    .main__right__menu{
+        max-height: calc(100vh - 90px - 112px - 90px);
+    }
+    .right__item {
+        width: calc(100% / 2 - 10px);
     }
 }
 
@@ -96,10 +153,19 @@
     .nav__right{
         height: 112px;
     }
-
+    .header__right{
+        width: calc(100% - 50px);
+    }
     .logo{ display: none;}
 
     .hidden{
         display: none;
+    }
+    .main__right__menu{
+        max-height: calc(100vh - 90px - 112px - 90px);
+    }
+
+    .right__item {
+        width: calc(100% / 2 - 10px);
     }
 }
