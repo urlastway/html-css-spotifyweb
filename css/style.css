@@ -57,6 +57,7 @@ body{
 
 .left__display{
     background-color: #000000;
+    overflow-y: auto;
 }
 
 .logo{
@@ -80,6 +81,11 @@ body{
     color: #717171;
     border: 2px solid #000000;
 }
+.playlist a{
+    border-style: hidden;
+    margin: 5px 0;
+}
+
 .menu__left a:hover {
     border-left: 2px solid #adff2f;
     color: #fff;
@@ -262,12 +268,112 @@ footer {
 /*-----------------------------------------------------*/
 
 /*Footer*/
-
-.footer__style{
+.footer__style {
     display: flex;
     width: 100%;
     height: 90px;
     background-color: #282828;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.footer__left, .footer__center, .footer__right {
+    display: flex;
+    align-items: center;
+}
+.footer__left{
+    justify-content: flex-start;
+}
+.footer__center{
+    width: 50%;
+    flex-direction: column;
+}
+.footer__left, .footer__right{
+    width: 25%;
+}
+.footer__left img{
+    width: 15%;
+    height: 15%;
+    margin: 0 20px;
+}
+#title__footer {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+#Subtitle__footer{
+    color: #878787;
+    font-size: 14px;
+    font-weight: 700;
+}
+.items__footer{
+    width: 55px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items__footer a, .items__footer__right a{
+    color: #fff;
+    font-size: 20px;
+}
+.footer__center__upbar{
+    margin-bottom: 5px;
+}
+.footer__center__upbar a{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px;
+}
+#play{
+    font-size: 30px;
+}
+
+.footer__center__downbar{
+    width: calc(100% / 1.5);
+    display: flex;
+    align-items: center;
+}
+.play__line__left, .play__line__right, .volum__left, .volum__right{
+    border-radius: 25px;
+    height: 3px;
+}
+.play__line__left{
+    width: 25%;
+    background-color: #fff;
+}
+.play__line__right{
+    width: 75%;
+    background-color: #5a5a5a;
+}
+.time__footer{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.footer__right{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.items__footer__right{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.volum{
+    margin-left: 20px;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+}
+.volum__left{
+    width: 25%;
+    background-color: #fff;
+}
+.volum__right{
+    width: 75%;
+    background-color: #5a5a5a;
+}
 /*F.Footer*/
